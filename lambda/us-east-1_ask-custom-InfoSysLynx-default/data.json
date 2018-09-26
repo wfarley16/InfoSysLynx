@@ -1,0 +1,318 @@
+{
+  "Allen Li": {
+    "office": "Fulton 412B"
+  },
+
+  "Burcu Bulgurcu": {
+    "office": "Fulton 454B",
+    "officeHours": [
+      {
+        "dayOfWeek": "Wednesday",
+        "startTime": "2:00 PM",
+        "endTime": "4:00 PM"
+      }
+    ],
+    "courses": [
+      {
+        "title": "Data Visualization",
+        "sections": [
+          "664501"
+        ]
+      }
+    ]
+  },
+
+  "George Wyner": {
+    "office": "Fulton 254D",
+    "officeHours": [
+      {
+        "dayOfWeek": "Monday",
+        "startTime": "1:30 PM",
+        "endTime": "2:30 PM"
+      },
+      {
+        "dayOfWeek": "Wednesday",
+        "startTime": "11:00 AM",
+        "endTime": "12:00 AM"
+      }
+    ],
+    "courses": [
+      {
+        "title": "Systems Analysis and Design",
+        "sections": [
+          "425801"
+        ]
+      },
+      {
+        "title": "Data Analytics 2: Management and Data Skills",
+        "sections": [
+          "772001",
+          "772002"
+        ]
+      }
+    ]
+  },
+
+  "Jerry Kane": {
+    "office": "Fulton 410A",
+    "officeHours": "By Appointment",
+    "courses": [
+      {
+        "title": "TechTrek East",
+        "sections": [
+          "320601"
+        ]
+      }
+    ]
+  },
+
+  "John Gallaugher": {
+    "office": "Fulton 460C",
+    "officeHours": [
+      {
+        "dayOfWeek": "Monday",
+        "startTime": "1:00 PM"
+      },
+      {
+        "dayOfWeek": "Wednesday",
+        "startTime": "1:00 PM"
+      },
+      {
+        "dayOfWeek": "Tuesday",
+        "startTime": "7:00 PM"
+      }
+    ],
+    "courses": [
+      {
+        "title": "Digital Technologies: Strategy and Use",
+        "sections": [
+          "102104",
+          "102105"
+        ]
+      },
+      {
+        "title": "Special Topics: Swift",
+        "sections": [
+          "216001"
+        ]
+      }
+    ]
+  },
+
+  "John Spang": {
+    "office": "825 Centre Street 201",
+    "courses": [
+      {
+        "title": "Database Systems and Applications",
+        "sections": [
+          "325701",
+          "325702"
+        ]
+      }
+    ]
+  },
+
+  "Len Evenchik": {
+    "office": "Fulton 254E",
+    "courses": [
+      {
+        "title": "Special Topics: Cybersecurity",
+        "sections": [
+          "664101"
+        ]
+      },
+      {
+        "title": "Data Analytics 2: Management and Data Skills",
+        "sections": [
+          "770012"
+        ]
+      }
+    ]
+  },
+
+  "Lindsey Sutton": {
+    "office": "Fulton 552",
+    "courses": [
+      {
+        "title": "Social Media, Emerging Tech, and Digital Business",
+        "sections": [
+          "662102"
+        ]
+      }
+    ]
+  },
+
+  "Marios Kokkodis": {
+    "office": "Fulton 412C",
+    "courses": [
+      {
+        "title": "Data Analytics in Practice",
+        "sections": [
+          "334001",
+          "334001"
+        ]
+      },
+      {
+        "title": "Data Analytics 3: In Practice",
+        "sections": [
+          "770512"
+        ]
+      }
+    ]
+  },
+
+  "Mary Cronin": {
+    "office": "Fulton 410B",
+    "officeHours": [
+      {
+        "dayOfWeek": "Monday",
+        "startTime": "10:30 AM",
+        "endTime": "12:00 PM"
+      }
+    ],
+    "courses": [
+      {
+        "title": "Managing for Social Impact and the Public Good",
+        "sections": [
+          "334501",
+          "334502"
+        ]
+      }
+    ]
+  },
+
+  "Mike Teodorescu": {
+    "office": "Fulton 410C"
+  },
+
+//  "P.J. McNealy": {
+//  },
+
+  "Peter Sterpe": {
+    "office": "Fulton 254A",
+    "officeHours": [
+      {
+        "dayOfWeek": "Monday",
+        "startTime": "2 PM",
+        "endTime": "3:30 PM"
+      },
+      {
+        "dayOfWeek": "Wednesday",
+        "startTime": "2:00 PM",
+        "endTime": "3:30 PM"
+      }
+    ],
+    "courses": [
+      {
+        "title": "Programming for Management and Analytics",
+        "sections": [
+          "215701",
+          "215702"
+        ]
+      },
+      {
+        "title": "Systems Analysis and Design",
+        "sections": [
+          "425802"
+        ]
+      }
+    ]
+  },
+
+  "Rob Fichman": {
+    "office": "Fulton 460B",
+    "officeHours": [
+      {
+        "dayOfWeek": "Tuesday",
+        "startTime": "4:30 PM",
+        "endTime": "5:30 PM"
+      },
+      {
+        "dayOfWeek": "Thursday",
+        "startTime": "4:30 PM",
+        "endTime": "5:30 PM"
+      }
+    ],
+    "courses": [
+      {
+        "title": "Special Topics: Managing Digital Innovation",
+        "sections": [
+          "331501"
+        ]
+      }
+    ]
+  },
+
+  "Sam Ransbotham": {
+    "office": "Fulton 460A"
+  },
+
+  "Shannon Provost": {
+    "office": "Fulton 254B",
+    "officeHours": [
+      {
+        "dayOfWeek": "Wednesday",
+        "startTime": "12:00 PM"
+      }
+    ],
+    "courses": [
+      {
+        "title": "Digital Technologies: Strategy and Use",
+        "sections": [
+          "102101",
+          "102102",
+          "102107"
+        ]
+      }
+    ]
+  },
+
+  "Will Cohen": {
+    "office": "Fulton 552",
+    "officeHours": [
+      {
+        "dayOfWeek": "Monday",
+        "startTime": "5:00 PM",
+        "endTime": "7:00 PM"
+      }
+    ],
+    "courses": [
+      {
+        "title": "Geographic Info Systems",
+        "sections": [
+          "662501"
+        ]
+      }
+    ]
+  },
+
+  "Xuan Ye": {
+    "office": "Fulton 460E",
+    "officeHours": [
+      {
+        "dayOfWeek": "Monday",
+        "startTime": "3:00 PM",
+        "endTime": "4:00 PM"
+      },
+      {
+        "dayOfWeek": "Wednesday",
+        "startTime": "3:00 PM",
+        "endTime": "4:00 PM"
+      },
+      {
+        "dayOfWeek": "Friday",
+        "startTime": "11:00 AM",
+        "endTime": "12:00 PM"
+      }
+    ],
+    "courses": [
+      {
+        "title": "Digital Technologies: Strategy and Use",
+        "sections": [
+          "102106",
+          "102108"
+        ]
+      }
+    ]
+  }
+}

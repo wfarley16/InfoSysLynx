@@ -1,0 +1,154 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "is assistant",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "Office",
+          "slots": [
+            {
+              "name": "Professor",
+              "type": "Professor"
+            }
+          ],
+          "samples": [
+            "Where is the office for {Professor} "
+          ]
+        },
+        {
+          "name": "OfficeHours",
+          "slots": [
+            {
+              "name": "Professor",
+              "type": "Professor"
+            }
+          ],
+          "samples": [
+            "When does {Professor} have office hours"
+          ]
+        },
+        {
+          "name": "Courses",
+          "slots": [
+            {
+              "name": "Professor",
+              "type": "Professor"
+            }
+          ],
+          "samples": [
+            "What courses does {Professor} teach"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Allen Li"
+              }
+            },
+            {
+              "name": {
+                "value": "Burcu Bulgurcu"
+              }
+            },
+            {
+              "name": {
+                "value": "George Wyner"
+              }
+            },
+            {
+              "name": {
+                "value": "Jerry Kane"
+              }
+            },
+            {
+              "name": {
+                "value": "John Gallaugher"
+              }
+            },
+            {
+              "name": {
+                "value": "John Spang"
+              }
+            },
+            {
+              "name": {
+                "value": "Len Evenchik"
+              }
+            },
+            {
+              "name": {
+                "value": "Lindsay Sutton"
+              }
+            },
+            {
+              "name": {
+                "value": "Marios Kokkodis"
+              }
+            },
+            {
+              "name": {
+                "value": "Mary Cronin"
+              }
+            },
+            {
+              "name": {
+                "value": "Mike Teodorescu"
+              }
+            },
+            {
+              "name": {
+                "value": "P.J. McNealy"
+              }
+            },
+            {
+              "name": {
+                "value": "Peter Sterpe"
+              }
+            },
+            {
+              "name": {
+                "value": "Rob Fichman"
+              }
+            },
+            {
+              "name": {
+                "value": "Sam Ransbotham"
+              }
+            },
+            {
+              "name": {
+                "value": "Shannon Provost"
+              }
+            },
+            {
+              "name": {
+                "value": "Will Cohen"
+              }
+            },
+            {
+              "name": {
+                "value": "Xuan Ye"
+              }
+            }
+          ],
+          "name": "Professor"
+        }
+      ]
+    }
+  }
+}
