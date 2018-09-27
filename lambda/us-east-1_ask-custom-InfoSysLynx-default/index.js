@@ -64,14 +64,13 @@ const handlers = {
     let js = await getData();
     let data = JSON.parse(js);
     let speechOutput;
-    if (this.event.request.dialogState !== "COMPLETED") {
-      this.emit(':delegate');
-    } else if (!data[this.event.request.intent.slots.professor.value]) {
+    if (!data[this.event.request.intent.slots.Professor.value]) {
+      console.log("Didn't match the slot");
       speechOutput = "We couldn't find that professor on file. Could you try again?";
       this.emit(':responseReady');
     } else {
       console.log("Professor Slot Matched");
-      let professor = this.event.request.intent.slots.professor.value;
+      let professor = this.event.request.intent.slots.Professor.value;
       let office = data[professor].office;
       speechOutput = "Professor " + professor + " is in " + office;
       this.response.speak(speechOutput);
@@ -84,14 +83,13 @@ const handlers = {
     let js = await getData();
     let data = JSON.parse(js);
     let speechOutput;
-    if (this.event.request.dialogState !== "COMPLETED") {
-      this.emit(':delegate');
-    } else if (!data[this.event.request.intent.slots.professor.value]) {
+    if (!data[this.event.request.intent.slots.Professor.value]) {
+      console.log("Didn't match the slot");
       speechOutput = "We couldn't find that professor on file. Could you try again?";
       this.emit(':responseReady');
     } else {
       console.log("Professor Slot Matched");
-      let professor = this.event.request.intent.slots.professor.value;
+      let professor = this.event.request.intent.slots.Professor.value;
       //could not exist or be by appointment only, just a start day, or multiple days
       //if it's not just by appointment only then it could be a start time or a range
       let officeHours = data[professor].officeHours;
@@ -99,13 +97,13 @@ const handlers = {
         //has days
         if (typeof officeHours === "object") {
           speechOutput = "This professor has office hours on ";
-          for (i = 0; i < officeHours.length; i++) {
+          for (let i = 0; i < officeHours.length; i++) {
             if (i > 0) speechOutput += " and ";
             speechOutput += officeHours[i].dayOfWeek;
             if (officeHours[i].endTime) {
-              speechOutput += ("from " + officeHours[i].startTime + " to " + officeHours[i].endTime);
+              speechOutput += (" from " + officeHours[i].startTime + " to " + officeHours[i].endTime);
             } else {
-              speechOutput += ("at " + officeHours[i].startTime);
+              speechOutput += (" at " + officeHours[i].startTime);
             }
           }
           this.response.speak(speechOutput);
@@ -127,19 +125,18 @@ const handlers = {
     let js = await getData();
     let data = JSON.parse(js);
     let speechOutput;
-    if (this.event.request.dialogState !== "COMPLETED") {
-      this.emit(':delegate');
-    } else if (!data[this.event.request.intent.slots.professor.value]) {
+    if (!data[this.event.request.intent.slots.Professor.value]) {
+      console.log("Didn't match the slot");
       speechOutput = "We couldn't find that professor on file. Could you try again?";
       this.emit(':responseReady');
     } else {
       console.log("Professor Slot Matched");
-      let professor = this.event.request.intent.slots.professor.value;
+      let professor = this.event.request.intent.slots.Professor.value;
       let courses = data[professor].courses;
       if (courses) {
         //is teaching at least one course
         speechOutput = "This professor is teaching ";
-        for (i = 0; i < courses.length; i++) {
+        for (let i = 0; i < courses.length; i++) {
           if (i > 0) speechOutput += " and ";
           speechOutput += courses[i].title;
         }

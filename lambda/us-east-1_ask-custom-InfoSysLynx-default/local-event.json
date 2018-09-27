@@ -32,12 +32,12 @@
 		"timestamp": "2018-09-27T20:10:38Z",
 		"locale": "en-US",
 		"intent": {
-			"name": "Office",
+			"name": "Courses",
 			"confirmationStatus": "NONE",
 			"slots": {
 				"Professor": {
 					"name": "Professor",
-					"value": "John Gallaugher",
+					"value": "John Gallagher",
 					"resolutions": {
 						"resolutionsPerAuthority": [
 							{
