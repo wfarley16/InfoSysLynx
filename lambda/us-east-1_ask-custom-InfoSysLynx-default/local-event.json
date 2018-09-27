@@ -1,0 +1,64 @@
+{
+	"version": "1.0",
+	"session": {
+		"new": false,
+		"sessionId": "amzn1.echo-api.session.dd26e124-5d28-4567-a791-239ca433166e",
+		"application": {
+			"applicationId": "amzn1.ask.skill.55ab7eed-e4c2-4318-96c2-a8ac1690eb6c"
+		},
+		"user": {
+			"userId": "amzn1.ask.account.AFLXUHYO4QQDOGEQZ5W62Q2CRTZUHOFGOVDG7PI3ENWQAOYWYZ3AICD64I2C3XEZ2TG4ZPIMCEA6WFJHDJHRF777D5H6TSJ7XIROOSFPWIGNKGCJIDQZODHE56MPAUT2AKMKX5F4E63LLFRQVERFBQVP4QMDUDTWQTNYIWRE3FQO5WOKMVILKVQZ4RCFDPEG7VAZ2K4XZIFTJUQ"
+		}
+	},
+	"context": {
+		"System": {
+			"application": {
+				"applicationId": "amzn1.ask.skill.55ab7eed-e4c2-4318-96c2-a8ac1690eb6c"
+			},
+			"user": {
+				"userId": "amzn1.ask.account.AFLXUHYO4QQDOGEQZ5W62Q2CRTZUHOFGOVDG7PI3ENWQAOYWYZ3AICD64I2C3XEZ2TG4ZPIMCEA6WFJHDJHRF777D5H6TSJ7XIROOSFPWIGNKGCJIDQZODHE56MPAUT2AKMKX5F4E63LLFRQVERFBQVP4QMDUDTWQTNYIWRE3FQO5WOKMVILKVQZ4RCFDPEG7VAZ2K4XZIFTJUQ"
+			},
+			"device": {
+				"deviceId": "amzn1.ask.device.AETCEX7JLXBCWLUHINR2JB6XO6T32RLOMSD3DKV6UDVC6ZHJOVRMJ5CB4VNUKXIVX2D6CPVRTKCNEWM6VHN7R7KSM5FGKESBBLR6XZMWRR2I7IP2XTV7NZ4TAZBS6WHWSGW67GINDXVY7TL3T4ZRRCJVFXXKMGLJXAWS2AKZAX67APVUWOHRA",
+				"supportedInterfaces": {}
+			},
+			"apiEndpoint": "https://api.amazonalexa.com",
+			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjU1YWI3ZWVkLWU0YzItNDMxOC05NmMyLWE4YWMxNjkwZWI2YyIsImV4cCI6MTUzODA4MjYzOCwiaWF0IjoxNTM4MDc5MDM4LCJuYmYiOjE1MzgwNzkwMzgsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUVUQ0VYN0pMWEJDV0xVSElOUjJKQjZYTzZUMzJSTE9NU0QzREtWNlVEVkM2WkhKT1ZSTUo1Q0I0Vk5VS1hJVlgyRDZDUFZSVEtDTkVXTTZWSE43UjdLU001RkdLRVNCQkxSNlhaTVdSUjJJN0lQMlhUVjdOWjRUQVpCUzZXSFdTR1c2N0dJTkRYVlk3VEwzVDRaUlJDSlZGWFhLTUdMSlhBV1MyQUtaQVg2N0FQVlVXT0hSQSIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFGTFhVSFlPNFFRRE9HRVFaNVc2MlEyQ1JUWlVIT0ZHT1ZERzdQSTNFTldRQU9ZV1laM0FJQ0Q2NEkyQzNYRVoyVEc0WlBJTUNFQTZXRkpIREpIUkY3NzdENUg2VFNKN1hJUk9PU0ZQV0lHTktHQ0pJRFFaT0RIRTU2TVBBVVQyQUtNS1g1RjRFNjNMTEZSUVZFUkZCUVZQNFFNRFVEVFdRVE5ZSVdSRTNGUU81V09LTVZJTEtWUVo0UkNGRFBFRzdWQVoySzRYWklGVEpVUSJ9fQ.WfFzkd_7idjBuPZi5UK7IgEfdfSAzuf3oyn_R8AKrUVsvHf3D5g7rso3onyewir_q08Bhbq0vZcgxRCVY1N5Kt9L_SzmYCw3PfirX-4fJxzRGYS8nT_W4k4byADaBe8ZLSUaTxh0unR_cV3pe_2d0m1aurz5gjez1JB0VkB0GZLH7M_9rMRVTmscUmOETM1axA-bxkpO28IlvJDbA4uL24NeMK6UA_atcU3PWDnFSkX4u0Fqmw4xGQEx6VOuj-_nK2uAKU9kIegSo_L2ra5Vqw4EF_H5nKC2NkEYMTbvPwNDhqsoivAQ0GfZwjHNmPIb7EoKPob6pc1eZkEGB3i6eg"
+		}
+	},
+	"request": {
+		"type": "IntentRequest",
+		"requestId": "amzn1.echo-api.request.38598300-d915-486d-8e3e-a7df3e830962",
+		"timestamp": "2018-09-27T20:10:38Z",
+		"locale": "en-US",
+		"intent": {
+			"name": "Office",
+			"confirmationStatus": "NONE",
+			"slots": {
+				"Professor": {
+					"name": "Professor",
+					"value": "John Gallaugher",
+					"resolutions": {
+						"resolutionsPerAuthority": [
+							{
+								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.55ab7eed-e4c2-4318-96c2-a8ac1690eb6c.Professor",
+								"status": {
+									"code": "ER_SUCCESS_MATCH"
+								},
+								"values": [
+									{
+										"value": {
+											"name": "John Gallaugher",
+											"id": "e7129a2933b1c736d22b949ef82be0b8"
+										}
+									}
+								]
+							}
+						]
+					},
+					"confirmationStatus": "NONE"
+				}
+			}
+		}
+	}
+}

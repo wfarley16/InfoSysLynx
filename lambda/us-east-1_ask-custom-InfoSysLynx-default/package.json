@@ -12,6 +12,7 @@
     "alexa-sdk": "^1.0.25",
     "ask-sdk-core": "^2.0.0",
     "ask-sdk-model": "^1.0.0",
-    "aws-sdk": "^2.321.0"
+    "aws-sdk": "^2.321.0",
+    "lambda-local": "^1.5.1"
   }
 }

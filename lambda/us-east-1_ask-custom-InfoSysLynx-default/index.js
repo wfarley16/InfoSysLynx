@@ -1,9 +1,13 @@
 // this is the IS Department skill
 
 'use strict';
+const fs = require("fs");
+const util = require("util");
 const Alexa = require("alexa-sdk");
 const AWS = require("aws-sdk");
-const data = require("./data.json");
+console.log("Requires");
+
+const readFile = util.promisify(fs.readFile);
 
 AWS.config.update({region: 'us-east-1'});
 
@@ -15,6 +19,10 @@ exports.handler = function (event, context, callback) {
 
 // helper functions
 // probably want something to translate professor full names to their Alexa counterpart
+
+async function getData() {
+  return await readFile("./data.json");
+}
 
 // handlers
 const handlers = {
@@ -51,7 +59,10 @@ const handlers = {
   },
   
   //Custom Intents
-  'Office': function () {
+  'Office': async function () {
+    console.log("Office triggered");
+    let js = await getData();
+    let data = JSON.parse(js);
     let speechOutput;
     if (this.event.request.dialogState !== "COMPLETED") {
       this.emit(':delegate');
@@ -59,15 +70,19 @@ const handlers = {
       speechOutput = "We couldn't find that professor on file. Could you try again?";
       this.emit(':responseReady');
     } else {
+      console.log("Professor Slot Matched");
       let professor = this.event.request.intent.slots.professor.value;
       let office = data[professor].office;
       speechOutput = "Professor " + professor + " is in " + office;
-      this.reponse.speak(speechOutput);
+      this.response.speak(speechOutput);
       this.emit(':responseReady');
     }
   },
   
-  'OfficeHours': function () {
+  'OfficeHours': async function () {
+    console.log("Office Hours triggered");
+    let js = await getData();
+    let data = JSON.parse(js);
     let speechOutput;
     if (this.event.request.dialogState !== "COMPLETED") {
       this.emit(':delegate');
@@ -75,6 +90,7 @@ const handlers = {
       speechOutput = "We couldn't find that professor on file. Could you try again?";
       this.emit(':responseReady');
     } else {
+      console.log("Professor Slot Matched");
       let professor = this.event.request.intent.slots.professor.value;
       //could not exist or be by appointment only, just a start day, or multiple days
       //if it's not just by appointment only then it could be a start time or a range
@@ -106,7 +122,10 @@ const handlers = {
     }
   },
   
-  'Courses': function () {
+  'Courses': async function () {
+    console.log("Courses triggered");
+    let js = await getData();
+    let data = JSON.parse(js);
     let speechOutput;
     if (this.event.request.dialogState !== "COMPLETED") {
       this.emit(':delegate');
@@ -114,6 +133,7 @@ const handlers = {
       speechOutput = "We couldn't find that professor on file. Could you try again?";
       this.emit(':responseReady');
     } else {
+      console.log("Professor Slot Matched");
       let professor = this.event.request.intent.slots.professor.value;
       let courses = data[professor].courses;
       if (courses) {

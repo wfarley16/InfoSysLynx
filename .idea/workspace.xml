@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ce0a5fa-414b-42bc-9008-f9896200bcdc" name="Default" comment="" />
+    <list default="true" id="0ce0a5fa-414b-42bc-9008-f9896200bcdc" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/lambda/us-east-1_ask-custom-InfoSysLynx-default/local-event.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lambda/us-east-1_ask-custom-InfoSysLynx-default/test-lambda.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ask/config" beforeDir="false" afterPath="$PROJECT_DIR$/.ask/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambda/us-east-1_ask-custom-InfoSysLynx-default/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/lambda/us-east-1_ask-custom-InfoSysLynx-default/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambda/us-east-1_ask-custom-InfoSysLynx-default/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lambda/us-east-1_ask-custom-InfoSysLynx-default/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambda/us-east-1_ask-custom-InfoSysLynx-default/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/lambda/us-east-1_ask-custom-InfoSysLynx-default/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambda/us-east-1_ask-custom-InfoSysLynx-default/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/lambda/us-east-1_ask-custom-InfoSysLynx-default/package.json" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,22 +23,48 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lambda/us-east-1_ask-custom-InfoSysLynx-default/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="120" column="53" lean-forward="true" selection-start-line="120" selection-start-column="53" selection-end-line="120" selection-end-column="53" />
+            <state relative-caret-position="137">
+              <caret line="128" column="21" lean-forward="true" selection-start-line="128" selection-start-column="21" selection-end-line="128" selection-end-column="21" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test-lambda.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lambda/us-east-1_ask-custom-InfoSysLynx-default/test-lambda.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="local-event.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lambda/us-east-1_ask-custom-InfoSysLynx-default/local-event.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="en-US.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/en-US.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="data.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lambda/us-east-1_ask-custom-InfoSysLynx-default/data.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="55">
+              <caret line="185" column="4" selection-start-line="185" selection-start-column="4" selection-end-line="185" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -37,6 +72,7 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_7.json" />
         <option value="$PROJECT_DIR$/lambda/custom/data.json" />
         <option value="$PROJECT_DIR$/lambda/custom/index.js" />
+        <option value="$PROJECT_DIR$/lambda/us-east-1_ask-custom-InfoSysLynx-default/local-event.json" />
         <option value="$PROJECT_DIR$/lambda/us-east-1_ask-custom-InfoSysLynx-default/data.json" />
         <option value="$PROJECT_DIR$/lambda/us-east-1_ask-custom-InfoSysLynx-default/index.js" />
       </list>
@@ -57,17 +93,16 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="197" />
     <option name="y" value="23" />
-    <option name="width" value="1080" />
+    <option name="width" value="1209" />
     <option name="height" value="730" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -95,6 +130,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -104,6 +140,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lambda/us-east-1_ask-custom-InfoSysLynx-default" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -116,6 +157,10 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Lambda Local" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="test-lambda.js" working-dir="$PROJECT_DIR$/lambda/us-east-1_ask-custom-InfoSysLynx-default" />
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="test-lambda.js" working-dir="$PROJECT_DIR$/lambda/us-east-1_ask-custom-InfoSysLynx-default" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -131,17 +176,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="197" y="23" width="1080" height="730" extended-state="0" />
+    <frame x="0" y="23" width="1209" height="730" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5009634" side_tool="true" weight="0.3295082" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295082" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4990366" weight="0.3295082" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23699422" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.218509" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -171,6 +216,44 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lambda/us-east-1_ask-custom-InfoSysLynx-default/index.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lambda/us-east-1_ask-custom-InfoSysLynx-default/test-lambda.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/en-US.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lambda/us-east-1_ask-custom-InfoSysLynx-default/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lambda/us-east-1_ask-custom-InfoSysLynx-default/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="120" column="53" lean-forward="true" selection-start-line="120" selection-start-column="53" selection-end-line="120" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lambda/us-east-1_ask-custom-InfoSysLynx-default/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lambda/us-east-1_ask-custom-InfoSysLynx-default/index.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1770">
           <caret line="118" column="12" lean-forward="true" selection-start-line="118" selection-start-column="12" selection-end-line="118" selection-end-column="12" />
         </state>
@@ -193,21 +276,33 @@
     <entry file="file://$PROJECT_DIR$/lambda/custom/data.json" />
     <entry file="file://$PROJECT_DIR$/lambda/custom/index.js" />
     <entry file="file://$PROJECT_DIR$/models/en-US.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lambda/us-east-1_ask-custom-InfoSysLynx-default/test-lambda.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-746" />
+        <state relative-caret-position="225">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lambda/us-east-1_ask-custom-InfoSysLynx-default/local-event.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lambda/us-east-1_ask-custom-InfoSysLynx-default/data.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        <state relative-caret-position="55">
+          <caret line="185" column="4" selection-start-line="185" selection-start-column="4" selection-end-line="185" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lambda/us-east-1_ask-custom-InfoSysLynx-default/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="120" column="53" lean-forward="true" selection-start-line="120" selection-start-column="53" selection-end-line="120" selection-end-column="53" />
+        <state relative-caret-position="137">
+          <caret line="128" column="21" lean-forward="true" selection-start-line="128" selection-start-column="21" selection-end-line="128" selection-end-column="21" />
         </state>
       </provider>
     </entry>
